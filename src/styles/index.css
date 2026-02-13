@@ -18,3 +18,37 @@
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
+/* ===== iPhone FIX: replace glass cards with soft pink cards ===== */
+
+/* все карточки (извинение, подарок, финал, игра) */
+.bg-white\/10,
+.bg-white\/15,
+.bg-white\/20,
+.bg-white\/25,
+.bg-white\/30,
+.bg-white\/40 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 182, 210, 0.35),
+    rgba(255, 150, 200, 0.45)
+  ) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* границы карточек */
+.border-white\/10,
+.border-white\/20,
+.border-white\/30 {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+/* убираем глючный blur */
+.backdrop-blur-sm,
+.backdrop-blur-md,
+.backdrop-blur-lg,
+.backdrop-blur-xl,
+.backdrop-blur-2xl {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
