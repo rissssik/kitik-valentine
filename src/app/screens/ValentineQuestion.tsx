@@ -2,8 +2,8 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { ConfettiHearts } from '../components/ConfettiHearts';
-import angryKittyImage from 'figma:asset/ce5c761189bfaed4694b7eed5e6dc29060c729d4.png';
-import happyKittyImage from 'figma:asset/fb53be265f2a18f701d1ebb09145e41767f00e91.png';
+import angryKittyImage from '../../assets/ce5c761189bfaed4694b7eed5e6dc29060c729d4.png';
+import happyKittyImage from '../../assets/fb53be265f2a18f701d1ebb09145e41767f00e91.png';
 
 export function ValentineQuestion() {
   const [noClickCount, setNoClickCount] = useState(0);
