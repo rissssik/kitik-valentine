@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useNavigate } from 'react-router';
 import { useEffect, useState } from 'react';
-import catImage from 'figma:asset/48057e9100aa0c2290abecba4f9eaff671608554.png';
+import catImage from '../../assets/48057e9100aa0c2290abecba4f9eaff671608554.png';
 
 interface Petal {
   id: number;
